@@ -1,0 +1,104 @@
+body {
+  background-image: url("..//images/background.jpg");
+  background-size: cover;
+}
+
+.registration-form {
+  width: 400px;
+  background-color: #87cefa;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px #888888;
+}
+
+.input-section {
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+#name, #address, #email-address, #telephone {
+  width: 100%;
+  height: 40px;
+  background-position: left;
+  text-indent: 50px;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
+.btn-submit {
+  width: 40%;
+  padding: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #3F54BF;
+  border: none;
+  border-radius: 8px;
+}
+
+.button-group {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+#name {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/user.svg");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#address {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/home.svg");
+}
+
+#email-address {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/at.svg");
+}
+
+#telephone {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/phone-square.svg");
+}
+
+#birthday {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/calendar-check.svg");
+  width: 100%;
+  height: 40px;
+  background-position: left;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  @media screen and (max-width: 992px) {
+    body {
+      width: 50%;
+    }
+    @media screen and (max-width: 600px) {
+      body {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 1024px) {
+      body {
+        width: auto%;
+      }
+    }
